@@ -7,6 +7,10 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { ButtonGroupComponent } from './button-group/button-group.component';
 import { CardComponent } from './card/card.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { CloseButtonComponent } from './close-button/close-button.component';
+import { CollapseComponent } from './collapse/collapse.component';
+import { DropdownsComponent } from './dropdowns/dropdowns.component';
 
 const routes: Routes = [
   {
@@ -34,10 +38,29 @@ const routes: Routes = [
   path:'button-group',
   component:ButtonGroupComponent
 },
-
 {
   path:'Card',
   component:CardComponent
+}
+,
+{
+  path:'Carousel',
+  component:CarouselComponent
+}
+,
+{
+  path:'Close-button',
+  component:CloseButtonComponent
+}
+,
+{
+  path:'Collapse',
+  component:CollapseComponent
+}
+,
+{
+  path:'Dropdowns',
+  component:DropdownsComponent
 }
 
 ];
