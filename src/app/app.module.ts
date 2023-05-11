@@ -8,6 +8,8 @@ import { AlertsComponent } from './alerts/alerts.component';
 import { BadgeComponent } from './badge/badge.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { ButtonsComponent } from './buttons/buttons.component';
+import { ButtonGroupComponent } from './button-group/button-group.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ButtonsComponent } from './buttons/buttons.component';
     AlertsComponent,
     BadgeComponent,
     BreadcrumbComponent,
-    ButtonsComponent
+    ButtonsComponent,
+    ButtonGroupComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
