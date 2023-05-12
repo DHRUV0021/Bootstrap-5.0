@@ -14,6 +14,12 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { CloseButtonComponent } from './close-button/close-button.component';
 import { CollapseComponent } from './collapse/collapse.component';
 import { DropdownsComponent } from './dropdowns/dropdowns.component';
+import { ListGroupComponent } from './list-group/list-group.component';
+import { ModalComponent } from './modal/modal.component';
+import { NavsTabsComponent } from './navs-tabs/navs-tabs.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { OffcanvasComponent } from './offcanvas/offcanvas.component';
+import { PaginationComponent } from './pagination/pagination.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +34,13 @@ import { DropdownsComponent } from './dropdowns/dropdowns.component';
     CarouselComponent,
     CloseButtonComponent,
     CollapseComponent,
-    DropdownsComponent
+    DropdownsComponent,
+    ListGroupComponent,
+    ModalComponent,
+    NavsTabsComponent,
+    NavbarComponent,
+    OffcanvasComponent,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,
