@@ -20,6 +20,12 @@ import { NavsTabsComponent } from './navs-tabs/navs-tabs.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { OffcanvasComponent } from './offcanvas/offcanvas.component';
 import { PaginationComponent } from './pagination/pagination.component';
+import { PopoversComponent } from './popovers/popovers.component';
+import { ProgressComponent } from './progress/progress.component';
+import { ScrollspyComponent } from './scrollspy/scrollspy.component';
+import { SpinnersComponent } from './spinners/spinners.component';
+import { ToastsComponent } from './toasts/toasts.component';
+import { TooltipsComponent } from './tooltips/tooltips.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +46,13 @@ import { PaginationComponent } from './pagination/pagination.component';
     NavsTabsComponent,
     NavbarComponent,
     OffcanvasComponent,
-    PaginationComponent
+    PaginationComponent,
+    PopoversComponent,
+    ProgressComponent,
+    ScrollspyComponent,
+    SpinnersComponent,
+    ToastsComponent,
+    TooltipsComponent
   ],
   imports: [
     BrowserModule,

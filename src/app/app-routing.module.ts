@@ -17,6 +17,12 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { NavsTabsComponent } from './navs-tabs/navs-tabs.component';
 import { ModalComponent } from './modal/modal.component';
 import { ListGroupComponent } from './list-group/list-group.component';
+import { PopoversComponent } from './popovers/popovers.component';
+import { ProgressComponent } from './progress/progress.component';
+import { ScrollspyComponent } from './scrollspy/scrollspy.component';
+import { SpinnersComponent } from './spinners/spinners.component';
+import { ToastsComponent } from './toasts/toasts.component';
+import { TooltipsComponent } from './tooltips/tooltips.component';
 
 const routes: Routes = [
   {
@@ -97,6 +103,36 @@ const routes: Routes = [
   {
     path: 'Pagination',
     component: PaginationComponent
+  }
+  ,
+  {
+    path: 'Popovers',
+    component: PopoversComponent
+  }
+  ,
+  {
+    path: 'Progress',
+    component: ProgressComponent
+  }
+  ,
+  {
+    path: 'Scrollspy',
+    component: ScrollspyComponent
+  }
+  ,
+  {
+    path: 'Spinners',
+    component: SpinnersComponent
+  }
+  ,
+  {
+    path: 'Toasts',
+    component: ToastsComponent
+  }
+  ,
+  {
+    path: 'Tooltips',
+    component: TooltipsComponent
   }
 
 ];
